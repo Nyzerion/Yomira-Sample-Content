@@ -1,0 +1,16 @@
+{
+  "id": "neon-meridian",
+  "title": "Neon Meridian",
+  "alternateTitles": [
+    "A Lantern for Tomorrow"
+  ],
+  "description": "An original short story created for Yomira\u2019s source-engine reference library. At the edge of a rainlit city, a courier discovers a message that changes the route home.",
+  "coverURL": "https://raw.githubusercontent.com/Nyzerion/Yomira/main/Samples/ReferenceSource/images/neon-meridian-cover.png",
+  "genres": [
+    "Drama",
+    "Science Fiction",
+    "Slice of Life"
+  ],
+  "language": "en",
+  "status": "Complete"
+}

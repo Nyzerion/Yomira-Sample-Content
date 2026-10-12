@@ -1,0 +1,35 @@
+{
+  "formatVersion": 1,
+  "id": "org.yomira.reference",
+  "name": "Yomira Reference Library",
+  "homepageURL": "https://github.com/Nyzerion/Yomira",
+  "sources": [
+    {
+      "id": "licensed-demo",
+      "name": "Yomira Licensed Demo",
+      "languages": [
+        "en"
+      ],
+      "version": "1.0.0",
+      "minimumEngineVersion": "1.0.0",
+      "capabilities": [
+        "search",
+        "popular",
+        "latest",
+        "details",
+        "chapters",
+        "pages"
+      ],
+      "definitionType": "yomira.json-rest.v1",
+      "baseURL": "https://raw.githubusercontent.com/Nyzerion/Yomira/main/Samples/ReferenceSource/",
+      "api": {
+        "search": "catalog.json?q={query}&page={page}",
+        "popular": "catalog.json?sort=popular&page={page}",
+        "latest": "catalog.json?sort=latest&page={page}",
+        "details": "manga/{mangaID}.json",
+        "chapters": "manga/{mangaID}.chapters.json?page={page}",
+        "pages": "chapters/{chapterID}/pages.json"
+      }
+    }
+  ]
+}
